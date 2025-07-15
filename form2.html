@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+</head>
+<body>
+    <form>
+  <h1>Registration Form</h1>
+  First Name:
+  <input type="text" placeholder="Enter your fist name" required /><br />
+  Last Name <input type="text" placeholder="Enter your last name" /><br />
+  Password:
+  <input
+    type="password"
+    placeholder="Enter your Password"
+    required
+    minlength="8"
+  /><br />
+  Gender: <br />
+  Male <input type="radio" name="Gender" /> Female
+  <input type="radio" name="Gender" /> Other
+  <input type="radio" name="Gender" /><br />
+
+  hobbies: <br />
+  Cycling <input type="checkbox" name="hobby1" /> <br />
+  Reading <input type="checkbox" name="hobby2" /> <br />
+  Traveling <input type="checkbox" name="hobby3" /> <br />
+  Guitar <input type="checkbox" name="hobby4" /> <br />
+  Dancing <input type="checkbox" name="hobby5" /> <br />
+
+  Degree:
+  <select name="hobbies">
+    <option value="Bachelors">Bachelors</option>
+    <option value="Masters">Masters</option>
+    <option value="PhD">PhD</option>
+    <option value="Diploma">Diploma</option>
+    <option value="Certificate">Certificate</option>
+  </select>
+
+  <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title> Regression Form</title>
+    <title> Regression Form</title>
   </head>
   <body>
     <form>
       <h1>Login form</h1>
+      <hr />
       <p>
         If you have been part of this organization then login with your company
         email
@@ -19,12 +20,14 @@
         required
       /><br />
       Password:
-      <input type="password" placeholder="Enter your password" required /><br />
+      <input type="password" placeholder="Enter your password" required /><br /><br>
       <input type="button" value="Login" />
+        <input type="reset" value="Reset" />
     </form>
 
     <form>
       <h1>Registration form</h1>
+      <hr />
       <p>
         If you are new to this organization then register with your company
         email
@@ -59,8 +62,8 @@
         <option value="Sales">Sales</option>
         <option value="Support">Support</option>
         <option value="IT">IT</option>
-      </select>
-      <br />
+      </select><br><br>
+      Address: <textarea rows="4" placeholder="Enter your address"></textarea><br><br>
       <input type="submit" value="Register" />
       <input type="reset" value="Reset" />
     </form>
